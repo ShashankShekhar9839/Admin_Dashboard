@@ -1,0 +1,21 @@
+.table>*{
+ overflow: hidden;
+ margin-bottom: 5px;
+ border-radius: 10px!important;
+}
+
+.MuiTable-root>*{
+    background:linear-gradient(0deg,rgb(60, 227, 227),white);
+    padding: 0!important;
+    margin: 0!important;
+ 
+}
+
+.Table td,th{
+    border: none!important;
+}
+
+
+.MuiTableRow-root.MuiTableRow-head>*{
+    font-weight: bold!important;
+}

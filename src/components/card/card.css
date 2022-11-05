@@ -1,0 +1,115 @@
+.compact-card{
+    display: flex;
+    flex: 1;
+    height: 7rem!important;
+    border-radius: 0.7rem;
+    color: black;
+    padding: 1rem;
+ 
+}
+
+/* .compact-card{
+    padding: 0.5rem;
+
+} */
+
+.radial-bar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+
+}
+
+.CircularProgressbar{
+    width: 4rem !important;
+    overflow: visible;
+
+}
+
+.CircularProgressbar-path{
+    stroke: white!important;
+    stroke-width: 12px!important;
+  
+
+}
+
+.CircularProgressbar-trail{
+    display: none;
+ 
+}
+
+.CircularProgressbar-text{
+    font-size: 1.5rem!important;
+    font-weight: bold;
+    fill: black!important;
+
+}
+
+/* details */
+
+.details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: bold;
+
+}
+
+.details>span:nth-child(1){
+    font-size: 25px;
+}
+
+.details>span:nth-child(2){
+    font-size: 20px;
+}
+
+.details>span:nth-child(3){
+    font-size: 14px;
+}
+
+
+/* expanded card */
+
+.expanded-card{
+    position: absolute;
+    width: 55%;
+    height: 60vh;
+    z-index: 9;
+    left: 13rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+   
+}
+
+/* .x{
+    align-self: flex-end;
+    font-size: 20px;
+    padding: 1rem;
+} */
+
+.chart-container{
+    height: 60%;
+    width: auto;
+    box-shadow: 0px 10px 20px 0px rgb(23, 236, 240);
+    border-radius: 1rem;
+
+
+}
+
+.expanded-card>span{
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
